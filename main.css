@@ -1,0 +1,110 @@
+body {
+margin: 10px;
+}
+
+h1 {
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    flex-direction:row;
+    border-top:5px;
+    border-bottom: 5px;
+    border: left 5px;
+    border:5px;
+    background-color:white; 
+    padding: 0px;  
+}
+
+.button {
+    background-color: rgb(139, 196, 152);
+    border:lightseagreen;
+    padding:10px;
+    font-size: 16px;
+}
+
+.logo {
+    color: rgb(76, 160, 100);
+}
+
+.navbaritems1 {
+    text-align: center;
+    flex: 1;
+}
+
+.text_block1 {
+    text-align:end;
+}
+
+
+#section_block1 {
+    background-image: url("images/home1.png");
+    background-position:center;
+    background-repeat: no-repeat;
+    padding: 100px;  
+}
+
+p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+button {
+    margin: 10px;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#flex_container {
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+}
+
+#container1 {
+    float: left;
+    width:33.33%;
+    padding: 0%;
+    text-align: center;
+}
+
+#container2 {
+    float: left;
+    width:33.33%;
+    padding: 0%;
+    text-align: center;
+}
+
+#container3 {
+    float: left;
+    width:33.33%;
+    padding: 0%;
+    text-align: center;
+}
+
+.container4 {
+    position: relative;
+    text-align: center;
+    color: rgb(25, 6, 6);
+    width:100%;
+}
+
+.container5 {
+    position:relative;
+    text-align: center;
+    color: rgb(12, 5, 5);
+    width:100%; 
+
+}
+
+
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
